@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>My Project: File List</title>
+<title>My Project: sorting.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -58,11 +58,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li class="current"><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
       <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -77,19 +76,93 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">File List</div>  </div>
+<div class="title">sorting.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all files with brief descriptions:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="bubble_8cpp.html" target="_self">bubble.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="_main_8cpp.html" target="_self">Main.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><img src="ftv2doc.png" alt="*" width="24" height="22" /><a class="el" href="merge_8cpp.html" target="_self">merge.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_3_"><td class="entry"><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a href="sorting_8h_source.html"><img src="ftv2doc.png" alt="*" width="24" height="22" /></a><a class="el" href="sorting_8h.html" target="_self">sorting.h</a></td><td class="desc"></td></tr>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br/>
+<code>#include &lt;stdlib.h&gt;</code><br/>
+<code>#include &lt;time.h&gt;</code><br/>
+</div>
+<p><a href="sorting_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af520970b71684a5d471d6f38c00563e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sorting_8h.html#af520970b71684a5d471d6f38c00563e2">bubble</a> (char *, int)</td></tr>
+<tr class="memdesc:af520970b71684a5d471d6f38c00563e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">headers:  <a href="#af520970b71684a5d471d6f38c00563e2">More...</a><br/></td></tr>
+<tr class="separator:af520970b71684a5d471d6f38c00563e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f85ceb6fa6f3163e00b9af6329e842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sorting_8h.html#a48f85ceb6fa6f3163e00b9af6329e842">merge_sort</a> (char *, int, int)</td></tr>
+<tr class="memdesc:a48f85ceb6fa6f3163e00b9af6329e842"><td class="mdescLeft">&#160;</td><td class="mdescRight">recursive merge sorting furction  <a href="#a48f85ceb6fa6f3163e00b9af6329e842">More...</a><br/></td></tr>
+<tr class="separator:a48f85ceb6fa6f3163e00b9af6329e842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- directory -->
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="af520970b71684a5d471d6f38c00563e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bubble </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>items</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>headers: </p>
+<p>prototypes: </p>
+
+</div>
+</div>
+<a class="anchor" id="a48f85ceb6fa6f3163e00b9af6329e842"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void merge_sort </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>recursive merge sorting furction </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

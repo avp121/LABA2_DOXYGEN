@@ -1,4 +1,4 @@
-void make_merge(char *a, int l, int mid,int r)///вспомогательная функция сортировки слиянием
+void make_merge(char *a, int l, int mid,int r)///merge sorting furction
 {
     char tmp[100];
     int i=l;
@@ -23,7 +23,7 @@ void make_merge(char *a, int l, int mid,int r)///вспомогательная функция сортиро
     }
 }
 
-void merge_sort(char *a,int l,int r)/// рекурсивная функция сортировки слиянием
+void merge_sort(char *a,int l,int r)/// recursive merge sorting furction
 {
     if(l!=r)
 	{
