@@ -19,11 +19,11 @@ void main ()
         printf ("%c", b[i]);
 	}
 	printf ("\nbubble(a):\n");
-    bubble (a, 100);
+    bubble (a, 100);///сортировка пузырьком
 	for (i=0; i<100; ++i)
         printf ("%c", a[i]);
 	printf ("\nmerge(a):\n");
-	merge_sort (b, 0, 99);
+	merge_sort (b, 0, 99);///сортировка слиянием
 	for (i=0; i<100; ++i)
         printf ("%c", b[i]);
 	printf ("\n");

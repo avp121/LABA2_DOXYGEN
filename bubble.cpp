@@ -1,4 +1,4 @@
-void bubble(char *items, int count)
+void bubble(char *items, int count)///сортировка пузырьком
 {
   register int a, b;
   register char t;
